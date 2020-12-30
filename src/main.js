@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import { router } from "./core/router/index"
 import Root from './Root.vue'
-import './index.css'
+import './main.css'
 
 createApp(Root)
     .use(router)
