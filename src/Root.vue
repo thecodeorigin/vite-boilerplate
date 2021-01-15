@@ -6,6 +6,7 @@
 
 <script>
 // Import layout components here
+// Can't use 'default' for component's name
 import defaultLayout from './core/layouts/default.vue'
 /**
  * Root component

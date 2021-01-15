@@ -1,5 +1,5 @@
 <template>
-  <div class="default__layout">
+  <div class="default__layout text-center mt-5">
     <router-link to="/" class="font-bold mx-1 hover:text-green-600 duration-300">
       Home
     </router-link>
