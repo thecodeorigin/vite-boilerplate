@@ -16,4 +16,7 @@ export const globalMixin = {
       }
     },
   },
+  created() {
+    console.log("[Global mixin created]", "Hello")
+  },
 }
