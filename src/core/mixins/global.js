@@ -1,3 +1,7 @@
+/**
+ * Global mixin, these features will be available in
+ * every components in the application
+ */
 export const globalMixin = {
   methods: {
     /**

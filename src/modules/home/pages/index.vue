@@ -4,8 +4,9 @@
   </div>
 </template>
 <script>
+import { defineComponent } from 'vue'
 import HelloWorld from '../components/HelloWorld.vue'
-export default {
+export default defineComponent({
   components: {
     HelloWorld,
   },
@@ -26,5 +27,5 @@ export default {
      */
     this.globalDI.$exampleDIFunction("[Home component mounted]")
   },
-}
+})
 </script>

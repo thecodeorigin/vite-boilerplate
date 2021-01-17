@@ -3,7 +3,8 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from 'vue'
+export default defineComponent({
   name: 'ExampleComponent',
   props: {},
   data() {
@@ -11,5 +12,9 @@ export default {
       //
     }
   }
-}
+})
 </script>
+
+<style>
+
+</style>

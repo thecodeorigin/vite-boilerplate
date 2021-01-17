@@ -5,13 +5,14 @@
 </template>
 
 <script>
+import { defineComponent } from 'vue'
 // Import layout components here
 // Can't use 'default' for component's name
 import defaultLayout from './core/layouts/default.vue'
 /**
  * Root component
  */
-export default {
+export default defineComponent({
   name: 'Root',
   components: {
     defaultLayout,
@@ -29,5 +30,5 @@ export default {
       this.layout = layout
     }
   },
-}
+})
 </script>
