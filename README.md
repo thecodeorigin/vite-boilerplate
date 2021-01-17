@@ -18,3 +18,4 @@ For detailed explanation on how things work, check out [Vite.js docs](https://vi
 ## Cool stuff
 - [Vue cheatsheet](https://devhints.io/vue)
 - [JsDoc cheatsheet](https://devhints.io/jsdoc)
+- [JSDoc Reference](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html)
