@@ -1,12 +1,16 @@
 <template>
-  <div></div>
+  <div>
+    {{ msg }}
+  </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'ExampleComponent',
-  props: {},
+  props: {
+    msg: String,
+  },
   data() {
     return {
       //

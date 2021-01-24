@@ -1,14 +1,14 @@
 <template>
   <div>
-    <HelloWorld msg="This is the home page" />
+    <ExampleComponent msg="This is a component" />
   </div>
 </template>
 <script>
 import { defineComponent } from 'vue'
-import HelloWorld from '../components/HelloWorld.vue'
+import ExampleComponent from '../components/ExampleComponent.vue'
 export default defineComponent({
   components: {
-    HelloWorld,
+    ExampleComponent,
   }
 })
 </script>
